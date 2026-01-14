@@ -1,25 +1,33 @@
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/f1a799c9-c403-4474-b088-fb7cb976fc45" />
 
-Installation information
-=======
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+Create Uncraftable Recipes expands the Create mod by adding fully functional crafting recipes for items that are normally restricted to Creative mode.
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+This addon is designed for endgame progression, modpacks, and technical players who want to unlock Create’s most powerful blocks through complex and expensive recipes instead of Creative access.
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+✨ Added Recipes for:
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+Creative Blaze Cake
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+Creative Crate
+
+Creative Fluid Tank
+
+Creative Motor
+
+Handheld Worldshaper
+
+All recipes are balanced for late-game usage and are intended to be difficult, rewarding, and compatible with survival gameplay.
+
+📦 Requirements
+
+Create Mod 6.0.9
+
+⚙️ Features
+
+
+Fully compatible with modpacks
+
+Focused on survival and progression-based gameplay
+
+Perfect for players who want to push Create to its limits without cheating.
