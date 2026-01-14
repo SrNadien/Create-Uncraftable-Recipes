@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:dragon_breath"
+    },
+    "B": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "P": {
+      "item": "create:blaze_cake"
+    },
+    "S": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "pattern": [
+    " AAA ",
+    "AAPAA",
+    "APSPA",
+    "BBPBB",
+    " BBB "
+  ],
+  "result": {
+    "count": 1,
+    "id": "create:creative_blaze_cake"
+  }
+}

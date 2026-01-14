@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "create:shaft"
+    },
+    "C": {
+      "item": "create:andesite_casing"
+    },
+    "D": {
+      "item": "minecraft:dragon_egg"
+    },
+    "E": {
+      "item": "minecraft:nether_star"
+    },
+    "S": {
+      "item": "minecraft:crying_obsidian"
+    }
+  },
+  "pattern": [
+    "EBE",
+    "SBS",
+    "SCS",
+    "EDE"
+  ],
+  "result": {
+    "count": 1,
+    "id": "create:creative_motor"
+  }
+}

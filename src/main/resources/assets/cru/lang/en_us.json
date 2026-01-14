@@ -1,0 +1,13 @@
+{
+  "itemGroup.cru": "Example Mod Tab",
+  "block.cru.example_block": "Example Block",
+  "item.cru.example_item": "Example Item",
+
+  "cru.configuration.title": "Create Uncraftable Recipes Configs",
+  "cru.configuration.section.cru.common.toml": "Create Uncraftable Recipes Configs",
+  "cru.configuration.section.cru.common.toml.title": "Create Uncraftable Recipes Configs",
+  "cru.configuration.items": "Item List",
+  "cru.configuration.logDirtBlock": "Log Dirt Block",
+  "cru.configuration.magicNumberIntroduction": "Magic Number Text",
+  "cru.configuration.magicNumber": "Magic Number"
+}
