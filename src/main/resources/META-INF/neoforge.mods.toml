@@ -56,6 +56,22 @@ This mod allows you to craft creative-only items in survival mode using expensiv
     ordering="AFTER"
     side="CLIENT"
 
+#rei dependency (OPTIONAL - for recipe viewing)
+[[dependencies.${mod_id}]]
+    modId="rei"
+    type="optional"
+    versionRange="${rei_version}"
+    ordering="AFTER"
+    side="CLIENT"
+
+#emi dependency (OPTIONAL - for recipe viewing)
+[[dependencies.${mod_id}]]
+    modId="emi"
+    type="optional"
+    versionRange="${emi_version}"
+    ordering="AFTER"
+    side="CLIENT"
+
 # Features are specific properties of the game environment, that you may want to declare you require. This example declares
 # that your mod requires GL version 3.2 or higher. Other features will be added. They are side aware so declaring this won't
 # stop your mod loading on the server for example.
