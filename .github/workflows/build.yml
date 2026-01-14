@@ -27,7 +27,7 @@ jobs:
         run: chmod +x ./gradlew
 
       - name: Build with Gradle
-        run: ./gradlew build
+        run: ./gradlew build --no-daemon
 
       - name: Upload build artifacts
         if: startsWith(github.ref, 'refs/tags/')
@@ -61,14 +61,14 @@ curseforge:
     if: startsWith(github.ref, 'refs/tags/')
     steps:
       
-name: Download build artifacts
+- name: Download build artifacts
       uses: actions/download-artifact@v4
       with:
         name: build-artifacts
         path: ./artifacts
 
       
-name: Upload to CurseForge
+- name: Upload to CurseForge
       uses: itsmeow/curseforge-upload@v3
       with:
         token: ${{ secrets.CURSEFORGE_TOKEN }}
